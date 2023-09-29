@@ -7,7 +7,6 @@ export default function useRouteElement() {
   const routeElement = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/about", element: <Login /> },
-
     { path: "login", element: <Login /> },
   ]);
   return routeElement;
