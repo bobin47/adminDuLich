@@ -4,7 +4,7 @@ import Home from "../page/Home/Home";
 
 export default function useRouteElement() {
   const routeElement = useRoutes([
-    { path: "login", element: <Login></Login> },
+    { path: "login", element: <Login /> },
     { path: "", element: <Home /> },
   ]);
   return routeElement;
