@@ -1,10 +1,10 @@
-import useRouteElement from './hooks/useRouteElement'
+import useRouteElement from "./hooks/useRouteElement";
 import "./assets/styles/main.css";
 import "./assets/styles/responsive.css";
 
 function App() {
   const routeElement = useRouteElement();
-  return routeElement;
+  return <div>{routeElement}</div>;
 }
 
-export default App
+export default App;
